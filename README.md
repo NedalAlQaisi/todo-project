@@ -9,5 +9,5 @@ The GUI after convert for website:
 Home Page
 ![Home page](/assets/homepage.png)
 
-Home Page
+About Page
 ![About page](/assets/aboutpage.png)
