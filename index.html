@@ -10,7 +10,8 @@
     <title>ToDo | Home Page</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <header>
+         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="index.html">
           <img src="assets/2666505.png" alt="logo" style="width:40px; margin: 0 20px;"> ToDo
@@ -25,53 +26,73 @@
             <a class="nav-link" href="about.html">About</a>
           </li>
         </ul>
-    </nav>
+        </nav>
+    </header>    
     <br><br><br><br>
-
-    <div class="container">
-        <table class="table table-bordered table-responsive-sm	">
-            <thead class="bg-info text-center ">
+    <main>
+<section id="section-table">
+    <div id="table-todo">
+        <table class="table table-bordered">
+            <thead class="bg-info">
             <tr>
-                <th>ToDo</th>
+                <th id="header-todo">ToDo</th>
                 <th>Statues</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>task 1</td>
-                <td class=" text-center ">
+                
+                <td>
                     <div class=" container form-check">
+                        <label class="form-check-label" for="check1">Leaen JS</label>
                         <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" >
-                        <label class="form-check-label" for="check1">Don</label>
                     </div>
                 </td>
+                <td ><img id="color" src="assets/green.png" alt=""></td>
             </tr>
             <tr>
-                <td>task 2</td>
-                <td class=" text-center ">
+                <td >
                     <div class=" container form-check">
+                        <label class="form-check-label" for="check1">Create HTML page </label>
                         <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" >
-                        <label class="form-check-label" for="check1">Don</label>
+
                     </div>
                 </td>
+                <td ><img id="color" src="assets/red.png" alt=""></td>
+
             </tr>
             <tr>
-                <td>task 3</td>
-                <td class=" text-center ">
+                <td >
                     <div class=" container form-check">
+                        <label class="form-check-label" for="check1">walk the dog</label>
                         <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" >
-                        <label class="form-check-label" for="check1">Don</label>
+
                     </div>
                 </td>
+                <td ><img id="color" src="assets/red.png" alt=""></td>
+
+
+            </tr>
+
+            <tr>
+                <td >
+                    <div class=" container form-check">
+                        <label class="form-check-label" for="check1">Watch the match</label>
+                        <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" >
+
+                    </div>
+                </td>
+                <td ><img id="color" src="assets/red.png" alt=""></td>
 
             </tr>
             </tbody>
         </table>
     </div>
-
+</section>
     <br><br><br><br>
     <br><br><br><br>
     <br><br><br><br>
+</main>
 
     <footer class="bg-dark">
         
