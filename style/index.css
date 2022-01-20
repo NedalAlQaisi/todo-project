@@ -1,0 +1,34 @@
+.form-check-label{
+    gap: 100px;
+    line-height: 1;
+}
+
+.form-check-input {
+    width: 13px;
+    right: 10px;
+}
+   
+#header-todo{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 252px;
+}
+
+#table-todo{
+    display: flex;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 500px;
+    margin:auto;
+}
+
+#section-table{
+    align-items: center;
+}
+
+#color{
+    width: 120px;
+    height: 25px;
+    
+}
