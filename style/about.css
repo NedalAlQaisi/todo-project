@@ -9,3 +9,23 @@ h1{
     margin-bottom: 10px;
 
 }
+
+#pr-img{
+    border-radius: 20%!important;
+}
+
+.list-group-item{
+    border-radius: 5%!important;
+
+}
+.list-group-item {
+    font-family: 'Caveat', cursive;
+    line-height: 3;
+
+
+}
+
+#oner-name{
+    font-size: 25px;
+    text-align: center;
+}
