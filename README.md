@@ -18,4 +18,4 @@ About Page
 Things are under control
 
 - How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?\
-The whole process took 45 minutes.
+The whole process took 50 minutes.
