@@ -45,3 +45,33 @@ if (Skip == false){
 
 
 
+
+//add new three (Yes/No) questions.
+
+function askQuestion(question){
+    let answer = prompt (question);
+     console.log(answer);
+     if(answer == "yes" || answer == "no"){
+
+         return answer;
+
+       } else if(answer == ""){
+
+          return "Invalid"
+       }
+}   
+ let theQ_1 = askQuestion("Do you like programming?");
+ let theQ_2 = askQuestion("Do you like to drink coffee during long work?");
+ let theQ_3 = askQuestion("Can you handle working under pressure?");
+                 
+ let answersArr = [theQ_1 , theQ_2 , theQ_3];
+
+ console.log(answersArr);
+
+
+ let traverse = (arr) =>{
+    for (let i = 0 ; i < arr.length ; i++){
+        console.log(arr[i]);
+    }
+}
+traverse(answersArr);
